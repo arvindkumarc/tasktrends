@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="20dip"
+            android:layout_height="wrap_content"
+            android:text="Hello World, Taskivity"
+            />
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New Hello World, Taskivity"
+            />
+    <Button android:text="@string/button_text" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
+
