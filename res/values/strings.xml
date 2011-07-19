@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Trend your tasks</string>
-    <string name="button_text">Sample Button</string>
+    <string name="task_app_name">Create task</string>
+    <string name="list_app_name">Tasks</string>
+    <string name="create_task_submit_text">Create Task</string>
+    <string name="taskName">Task Name ...</string>
 </resources>
