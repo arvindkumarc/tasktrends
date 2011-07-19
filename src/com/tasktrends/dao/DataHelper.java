@@ -49,7 +49,7 @@ public class DataHelper {
 
     private String getDate(String taskDate) {
         Log.i("Date: ", taskDate);
-        DateFormat iso8601Format = new SimpleDateFormat("yyyy-MM-dd");
+        DateFormat iso8601Format = new SimpleDateFormat("EEE, MMM d, yyyy");
         Date date = null;
         try {
             date = iso8601Format.parse(taskDate);

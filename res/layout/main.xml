@@ -11,15 +11,17 @@
             android:layout_height="wrap_content"
             android:text="@string/taskName"
             />
-    <TableLayout android:orientation="horizontal" android:background="@color/red" android:layout_width="fill_parent"
-                 android:layout_height="wrap_content">
-        <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
-            <DatePicker android:id="@id/task_date" android:layout_height="wrap_content"
-                        android:textSize="12sp" android:layout_width="0dip" android:layout_weight=".33"/>
-            <!--<TimePicker android:id="@id/task_time" android:layout_height="wrap_content"-->
-                        <!--android:layout_width="wrap_content"/>-->
-        </TableRow>
-    </TableLayout>
+    <TextView android:id="@id/task_date" android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:textAppearance="@style/dateTime"
+              android:layout_marginBottom="10dip"
+              android:focusable="true" android:focusableInTouchMode="true" />
+
+    <TextView android:id="@id/task_time" android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:textAppearance="@style/dateTime"
+              android:layout_marginBottom="20dip"
+              android:focusable="true" android:focusableInTouchMode="true" />
 
     <Button android:id="@id/create_task_button" android:text="@string/create_task_submit_text"
             android:layout_width="fill_parent" android:layout_height="wrap_content"/>
