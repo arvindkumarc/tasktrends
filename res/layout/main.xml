@@ -4,24 +4,24 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
-    <EditText
-            android:id="@id/task_name"
-            android:layout_width="fill_parent"
-            android:layout_marginBottom="20dip"
-            android:layout_height="wrap_content"
-            android:text="@string/taskName"
-            />
-    <TextView android:id="@id/task_date" android:layout_height="wrap_content"
-              android:layout_width="fill_parent"
-              android:textAppearance="@style/dateTime"
-              android:layout_marginBottom="10dip"
-              android:focusable="true" android:focusableInTouchMode="true" />
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableRow>
+            <EditText
+                    android:id="@id/task_name"
+                    android:layout_width="fill_parent"
+                    android:layout_marginBottom="20dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/taskName"
+                    android:textSize="5sp"
+                    />
+        </TableRow>
+    </TableLayout>
 
     <TextView android:id="@id/task_time" android:layout_height="wrap_content"
               android:layout_width="fill_parent"
               android:textAppearance="@style/dateTime"
               android:layout_marginBottom="20dip"
-              android:focusable="true" android:focusableInTouchMode="true" />
+              android:focusable="true" android:focusableInTouchMode="true"/>
 
     <Button android:id="@id/create_task_button" android:text="@string/create_task_submit_text"
             android:layout_width="fill_parent" android:layout_height="wrap_content"/>
