@@ -1,6 +1,5 @@
 <resources>
     <item name="task_name" type="id"/>
     <item name="create_task_button" type="id"/>
-    <item name="task_date" type="id"/>
-    <item name="task_time" type="id"/>
+    <item name="spent_time" type="id"/>
 </resources>
